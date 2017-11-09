@@ -1,0 +1,16 @@
+<import src='../../common/template.wxml' />
+<view class='conainter'>
+  <!-- header -->
+  <view class='title'>栏目名称</view>
+  <!-- subtitle -->
+  <view class='subtitle'>您发布的消息我们会及时通过微博、微信进行转发，20万粉丝与你同在</view>
+  <!-- sperator -->
+  <view class='seprator'>
+    <text class='seprator-line'></text>
+    <text class='seprator-text'>请选择您要发布的栏目</text>
+    <text class='seprator-line'></text>
+  </view>
+  <!-- nav -->
+  <template is='nav-tpl' data='{{navList}}'>
+  </template>
+</view>

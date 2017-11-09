@@ -1,0 +1,28 @@
+<view class='container'>
+  <textarea class='content' placeholder-class='content-placeholder' placeholder='简洁，明确，让你的描述一目了然'>
+  </textarea>
+  <view class='appendix'>
+    <image class='appendix-img' bindtap='handleCoverUpload' src='/images/cover.png'></image>
+    <image class='appendix-img' bindtap='handleAppendixUpload' src='/images/appendix.png'></image>
+  </view>
+  <view class='title'>
+    <text class='title-text'>完善信息</text>
+    <text class='title-subtext'>让您的发布获得更多浏览</text>
+  </view>
+  <view class='detail'>
+    <view class='detail-row'>
+      <view class='detail-key' type='number'>手机</view>
+      <input class='detail-value' placeholder='请输入正确的手机号' placeholder-class='detail-value-placeholder'></input>
+      <view class='detail-tail'>(必填)</view>
+    </view>
+    <view class='detail-row'>
+      <view class='detail-key' type='text'>附言</view>
+      <input class='detail-value'></input>
+    </view>
+    <view class='detail-row'>
+      <view class='detail-key' type='text'>附言</view>
+      <input class='detail-value'></input>
+    </view>
+  </view>
+  <view class='confirm-btn'>确认发布</view>
+</view>

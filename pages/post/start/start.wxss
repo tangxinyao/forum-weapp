@@ -1,0 +1,41 @@
+.title {
+  background-color: #0195ff;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+
+.subtitle {
+  background-color: #f2f2f2;
+  color: #606060;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  line-height: 2;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.seprator {
+  font-size: 0.75rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.seprator-text {
+  color: #606060;
+  display: inline-block;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.seprator-line {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-top: 0.5rem;
+  border-bottom: solid 1px #606060;
+  vertical-align: top;
+  width: 3rem;
+}

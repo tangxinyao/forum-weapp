@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/post/start/start",
+    "pages/post/edit/edit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0195ff",
+    "navigationBarTitleText": "故城在线",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-o.png"
+      },
+      {
+        "pagePath": "pages/post/start/start",
+        "text": "发布",
+        "iconPath": "images/post.png",
+        "selectedIconPath": "images/post.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-o.png"
+      }
+    ],
+    "selectedColor": "#0195ff"
+  }
+}

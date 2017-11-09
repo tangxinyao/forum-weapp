@@ -1,0 +1,13 @@
+<!-- nav -->
+<template name='nav-tpl'>
+  <view class='nav'>
+    <view wx:for='{{navList}}' wx:key='title' open-type='redirect'>
+      <navigator url='{{item.url}}'>
+        <view class='nav-span'>
+          <image class='nav-img'></image>
+          <view class='nav-text'>{{item.title}}</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</template>

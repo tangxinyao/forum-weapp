@@ -1,0 +1,80 @@
+<import src='../common/template.wxml' />
+
+<!--index.wxml-->
+<view class="container">
+  <!-- header -->
+  <view class='header'>
+    <view class='search'>
+      <image class='search-logo' mode='aspectFit' src='../../images/logo.png'></image>
+      <input class='search-ipt' type='text' placeholder='找商家、找工作、找房子' placeholder-class='search-ipt-placeholder' bindinput='handleInput' />
+      <icon class='search-btn' type='search' color='#0195ff'></icon>
+    </view>
+  </view>
+
+  <!-nav-->
+  <template is='nav-tpl' data='{{navList}}'>
+  </template>
+
+  <!-- recommend -->
+  <view class='recommend'>
+    <view class='recommend-header'>
+      <text style='color:#606060;margin-right:0.5rem;'>热门</text>
+      <text style='color:#afafaf;'>关注度高的话题</text>
+    </view>
+    <scroll-view scroll-x="true" scroll-left='0'>
+      <view class='recommend-box'>
+        <view class='recommender-polyfill'></view>
+        <image class='recommend-img' lazy-load='true'>
+          <text class='recommend-text'>title</text>
+        </image>
+        <image class='recommend-img' lazy-load='true'>
+          <text class='recommend-text'>title</text>
+        </image>
+        <image class='recommend-img' lazy-load='true'>
+          <text class='recommend-text'>title</text>
+        </image>
+        <image class='recommend-img' lazy-load='true'>
+          <text class='recommend-text'>title</text>
+        </image>
+        <view class='recommender-polyfill'></view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-- timeline -->
+  <view class='timeline'>
+    <view class='timeline-header'>
+      <picker class='timeline-selector-span' bindchange='handleAreaChange' value='{{areaIndex}}' range='{{areaList}}'>
+        <view>{{areaIndex !== 0 ? areaList[areaIndex] : '故城县'}}</view>
+      </picker>
+      <view class='timeline-selector-seperator'>|</view>
+      <picker class='timeline-selector-span' bindchange='handleCategoryChange' value='{{categoryIndex}}' range='{{categoryList}}'>
+        <view>{{categoryIndex !== 0 ? categoryList[categoryIndex] : '分类'}}</view>
+      </picker>
+      <view class='timeline-selector-seperator'>|</view>
+      <picker class='timeline-selector-span' bindchange='handleSortChange' value='{{sortIndex}}' range='{{sortList}}'>
+        <view>{{sortIndex !== 0 ? sortList[sortIndex] : '排序'}}</view>
+      </picker>
+    </view>
+    <view class='timeline-card'>
+      <view class='timeline-card-aside'>
+        <image class='timeline-card-img'></image>
+      </view>
+      <view class='timeline-card-content'>
+        <view>
+          <text class='timeline-card-type'>type</text>
+          <text>name</text>
+        </view>
+        <view>
+          <text>details and details and details and details and details...</text>
+        </view>
+        <view>
+          <text class='timline-card-light'>more</text>
+        </view>
+        <view>
+          <text class='timline-card-light'>five days ago</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
