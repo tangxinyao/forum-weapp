@@ -9,7 +9,16 @@ App({
     // 登录
     wx.login({
       success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        if (res.code) {
+          wx.request({
+            url: `http://${this.globalData.hostname}:${this.globalData.port}/sessions`,
+            data: {
+              code: res.code
+            }
+          })
+        } else {
+          console.log(res.errMsg)
+        }
       }
     })
     // 获取用户信息
@@ -34,6 +43,8 @@ App({
     })
   },
   globalData: {
+    hostname: 'localhost',
+    port: '3000',
     userInfo: null
   }
 })
