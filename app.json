@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/post/start/start",
-    "pages/post/edit/edit"
+    "pages/post/edit/edit",
+    "pages/article/article",
+    "pages/list/list"
   ],
   "window": {
     "backgroundTextStyle": "light",

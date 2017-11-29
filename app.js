@@ -64,7 +64,7 @@ App({
    */
   transportLoginInfo: function (codeInfo, userInfo, next, err) {
     wx.request({
-      url: `http://${this.globalData.hostname}:${this.globalData.port}/sessions`,
+      url: `http://${this.globalData.hostname}:${this.globalData.port}/token`,
       data: {
         code: codeInfo.code,
         encryptedData: userInfo.encryptedData,

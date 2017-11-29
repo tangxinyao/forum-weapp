@@ -1,0 +1,65 @@
+<view class="container">
+  <view class="article-top-bar">
+    <image class="article-avatar"></image>
+    <view style="float:left;padding:0.5rem 0">
+      <view style="padding-bottom:0.5rem">用户名</view>
+      <view style="color:#afafaf">发布 | 10 小时前</view>
+    </view>
+    <view style="float:right;padding:0.5rem;">
+      <view class='article-follow-btn' bindtap='handleFollow'>+关注</view>
+      <view class='article-call-btn' bindtap='handleCall'>拨打电话</view>
+    </view>
+  </view>
+  <image class="article-cover">
+    <view style="position:absolute;bottom:0;color:#fff;padding:0.5rem;line-height:1.5;letter-spacing:1px;">
+      <view>这里是文章的标题</view>
+      <view>
+        <image class="article-icon" src="../../images/eye.png"></image>
+        <text style="padding:0 0.5rem;">1K+</text>
+        <image class="article-icon" src="../../images/heart.png"></image>
+        <text style="padding:0 0.5rem;">1K+</text>
+      </view>
+    </view>
+  </image>
+  <view style="background-color:#fff;color:#606060;padding:0.5rem;line-height:2;">
+    <view>这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容</view>
+    <view>这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容</view>
+    <view>这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容</view>
+    <view>这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容这里是文章的内容</view>
+  </view>
+  <view class="article-pic-group">
+    <image class="article-pic"></image>
+    <image class="article-pic"></image>
+    <image class="article-pic"></image>
+    <image class="article-pic"></image>
+    <image class="article-pic"></image>
+    <image class="article-pic"></image>
+  </view>
+  <view style="background-color:#fff;display:flex;padding:0.5rem;">
+    <view style="flex:auto;height:0.5rem;border-bottom:solid 1px #afafaf;"></view>
+    <view style="flex:none;color:#afafaf;font-size:0.75rem;letter-spacing:2px;padding:0 0.75rem;">100感兴趣</view>
+    <view style="flex:auto;height:0.5rem;border-bottom:solid 1px #afafaf;"></view>
+  </view>
+  <view class="article-avatar-group">
+    <image class="article-avatar"></image>
+    <image class="article-avatar"></image>
+    <image class="article-avatar"></image>
+    <image class="article-avatar"></image>
+    <image class="article-avatar"></image>
+    <image class="article-avatar" src="../../images/plus.png"></image>
+  </view>
+  <view class="article-comment">
+    <view class="article-comment-header">
+      <image class="article-avatar"></image>
+      <text style="float:left;padding:1rem 0;">用户名</text>
+      <text style="float:right;color:#afafaf;padding:1rem 0.5rem;">1月1日 01:01</text>
+    </view>
+    <view class="article-comment-content">评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容评论的内容</view>
+    <view class="article-comment-replay">
+      <text style="padding-right:0.5rem;">用户名</text>
+      <text style="color:#606060;padding-right:0.5rem;">回复</text>
+      <text style="color:#afafaf;padding-right:0.5rem;">用户名</text>
+      <text style="color:#606060;">回复的内容回复的内容回复的内容回复的内容回复的内容回复的内容</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,110 @@
+.article-top-bar {
+  background-color: #fff;
+  font-size: 0.75rem;
+  height: 3rem;
+  line-height: 1;
+}
+
+.article-call-btn {
+  border: solid 1px #0195ff;
+  box-sizing: border-box;
+  color: #0195ff;
+  float: right;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  line-height: 1;
+}
+
+.article-follow-btn {
+  border: solid 1px #0195ff;
+  background-color: #0195ff;
+  box-sizing: border-box;
+  color: #fff;
+  float: right;
+  padding: 0.5rem;
+  line-height: 1;
+}
+
+.article-cover {
+  background-color: #0195ff;
+  display: block;
+  height: 10rem;
+  position: relative;
+  width: 100%;
+}
+
+.article-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.article-avatar {
+  background-color: #0195ff;
+  border-radius: 1rem;
+  float: left;
+  height: 2rem;
+  margin: 0.5rem;
+  width: 2rem;
+}
+
+.article-avatar-group {
+  background-color: #fff;
+  padding: 0 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-avatar-group::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.article-pic {
+  float: left;
+  background-color: #0195ff;
+  height: 28vw;
+  width: 28vw;
+  margin: 2vw;
+}
+
+.article-pic-group {
+  background-color: #fff;
+  padding: 0 2vw;
+}
+
+.article-pic-group::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.article-comment-header {
+  line-height: 1;
+}
+
+.article-comment-header::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.article-comment {
+  background-color: #fff;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-comment-content {
+  color: #606060;
+  line-height: 2;
+  padding-left: 3rem;
+  padding-right:0.5rem;
+}
+
+.article-comment-replay {
+  background-color: #f2f2f2;
+  line-height: 2;
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+}

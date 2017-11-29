@@ -16,14 +16,14 @@ Page({
     areaList: ['故城县', '纽约', '伦敦', '东京'],
     categoryList: ['全部分类', '交友', '招聘'],
     sortList: ['默认排序', '时间', '热度'],
-    navList: [{ title: 'title1', img: '', url: '../post/start/start' },
-      { title: 'title2', img: '', url: '../post/start/start' },
-      { title: 'title3', img: '', url: '../post/start/start' },
-      { title: 'title4', img: '', url: '../post/start/start' },
-      { title: 'title5', img: '', url: '../post/start/start' },
-      { title: 'title6', img: '', url: '../post/start/start' },
-      { title: 'title7', img: '', url: '../post/start/start' },
-      { title: 'title8', img: '', url: '../post/start/start' }
+    navList: [{ title: 'title1', img: '', url: '../article/article' },
+      { title: 'title2', img: '', url: '../article/article' },
+      { title: 'title3', img: '', url: '../article/article' },
+      { title: 'title4', img: '', url: '../article/article' },
+      { title: 'title5', img: '', url: '../article/article' },
+      { title: 'title6', img: '', url: '../article/article' },
+      { title: 'title7', img: '', url: '../article/article' },
+      { title: 'title8', img: '', url: '../article/article' }
     ]
   },
   onLoad: function () {
