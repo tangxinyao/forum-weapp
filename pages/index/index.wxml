@@ -69,7 +69,9 @@
           <text>details and details and details and details and details...</text>
         </view>
         <view>
-          <text class='timline-card-light'>more</text>
+          <navigator url='../article/article'>
+            <text class='timline-card-light'>more</text>
+          </navigator>
         </view>
         <view>
           <text class='timline-card-light'>five days ago</text>

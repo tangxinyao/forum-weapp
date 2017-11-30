@@ -1,0 +1,53 @@
+.profile-header {
+  background-color: #0195ff;
+  color: #fff;
+  height: 7rem;
+  text-align: center;
+  width: 100%;
+}
+
+.profile-avator {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.profile-btn-group {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.profile-btn {
+  flex: auto;
+  text-align: center;
+  width: 4rem;
+}
+
+.profile-btn-key {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}
+
+.profile-list {
+  background-color: #fff;
+}
+
+.profile-item {
+  border-bottom: solid 1px #f2f2f2;
+  letter-spacing: 2px;
+  padding: 1rem 0;
+  margin: 0 1rem;
+}
+
+.profile-item-more {
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  margin-right:1rem;
+}

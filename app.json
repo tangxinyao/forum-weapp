@@ -1,10 +1,11 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/article/article",
+    "pages/list/list",
     "pages/post/start/start",
     "pages/post/edit/edit",
-    "pages/article/article",
-    "pages/list/list"
+    "pages/profile/profile"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,7 +28,7 @@
         "selectedIconPath": "images/post.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/profile/profile",
         "text": "我的",
         "iconPath": "images/user.png",
         "selectedIconPath": "images/user-o.png"

@@ -6,8 +6,8 @@
       <view style="color:#afafaf">发布 | 10 小时前</view>
     </view>
     <view style="float:right;padding:0.5rem;">
-      <view class='article-follow-btn' bindtap='handleFollow'>+关注</view>
-      <view class='article-call-btn' bindtap='handleCall'>拨打电话</view>
+      <view class="article-follow-btn" bindtap="handleFollow">+关注</view>
+      <view class="article-call-btn" bindtap="handleCall">拨打电话</view>
     </view>
   </view>
   <image class="article-cover">
@@ -45,7 +45,6 @@
     <image class="article-avatar"></image>
     <image class="article-avatar"></image>
     <image class="article-avatar"></image>
-    <image class="article-avatar"></image>
     <image class="article-avatar" src="../../images/plus.png"></image>
   </view>
   <view class="article-comment">
@@ -61,5 +60,11 @@
       <text style="color:#afafaf;padding-right:0.5rem;">用户名</text>
       <text style="color:#606060;">回复的内容回复的内容回复的内容回复的内容回复的内容回复的内容</text>
     </view>
+  </view>
+  <view class="article-polyfill"></view>
+  <view class="article-bottom-bar">
+    <view style="color: #606060;float: left;padding: 1rem;">回复楼主</view>
+    <view style="color: #606060;float: left;padding: 1rem 0;">已有15条回复</view>
+    <view class="article-reply-btn" bindtap="handleReply">回帖</view>
   </view>
 </view>

@@ -1,0 +1,40 @@
+<view class='container'>
+  <view class='profile-header'>
+    <view style='padding-top:0.5rem;'>
+      <image class='profile-avator'></image>
+    </view>
+    <view style='color:#fff;letter-spacing:2px;padding-top:0.5rem;'>用户名</view>
+  </view>
+  <view class='profile-btn-group'>
+    <view class='profile-btn'>
+      <view>20</view>
+      <view class='profile-btn-key'>关注</view>
+    </view>
+    <view class='profile-btn'>
+      <view>20</view>
+      <view class='profile-btn-key'>粉丝</view>
+    </view>
+    <view class='profile-btn'>
+      <view>20</view>
+      <view class='profile-btn-key'>已发布</view>
+    </view>
+  </view>
+  <view class='profile-list'>
+    <view class='profile-item'>
+      <text>我点赞的</text>
+      <image class='profile-item-more' src='../../images/more.png'></image>
+    </view>
+    <view class='profile-item'>
+      <text>我评论的</text>
+      <image class='profile-item-more' src='../../images/more.png'></image>
+    </view>
+    <view class='profile-item'>
+      <text>发布记录</text>
+      <image class='profile-item-more' src='../../images/more.png'></image>
+    </view>
+    <view class='profile-item'>
+      <text>发布信息</text>
+      <image class='profile-item-more' src='../../images/more.png'></image>
+    </view>
+  </view>
+</view>
